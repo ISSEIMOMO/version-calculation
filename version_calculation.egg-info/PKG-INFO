@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: version-calculation
-Version: 0.0.1
+Version: 0.0.2
 Summary: uma calculadora de opreções basicas para versões
 Author: issei momonge
 Author-email: mggyggf@gmail.com
@@ -30,3 +30,6 @@ o 3 Ã© o numero de casas
 e o n+15 Ã© a operaÃ§Ã£o
 
 entÃ£o some 15 a minha versÃ£o
+
+alteraÃ§Ãµe:
+corresÃ£o de erros

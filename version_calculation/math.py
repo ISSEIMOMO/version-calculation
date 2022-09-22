@@ -39,8 +39,8 @@ class cal:
 			self.__strnumero[2] = (self.__strnumero[2], 0)[self.__strnumero[2] == None or self.__strnumero[2] == '']
 
 			self.__strnumero[1] = (int(self.__strnumero[1])*100, 0)[int(self.__strnumero[1]) == 0]
-			self.__strnumero[0] = (int(self.__strnumero[2])*1000, 0)[int(self.__strnumero[2]) == 0]
-			self.__strnumero = self.__strnumero[0] + self.__strnumero[1] + self.__strnumero[2]
+			self.__strnumero[0] = (int(self.__strnumero[0])*1000, 0)[int(self.__strnumero[0]) == 0]
+			self.__strnumero = int(self.__strnumero[0]) + int(self.__strnumero[1]) + int(self.__strnumero[2])
 		else:
 			raise Error('as versoes devem seguir o padrao numero.numero.numero')
 

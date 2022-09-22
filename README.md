@@ -19,3 +19,6 @@ o 3 é o numero de casas
 e o n+15 é a operação
 
 então some 15 a minha versão
+
+alteraçõe:
+corresão de erros
